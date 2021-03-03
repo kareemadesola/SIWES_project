@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>OAU Agenda Management System</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="box-shadow: none;">
+        <div class="container">
+            <a class="navbar-brand" href="#">OAU PGMS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+                aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--/.Navbar-->
+
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-1" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-1" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-1" data-slide-to="1"></li>
+            <li data-target="#carousel-example-1" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+            <!--First slide-->
+            <div class="carousel-item active">
+                <!--Mask-->
+                <div class="view">
+                    <div class="full-bg-img flex-center mask rgba-indigo-light white-text">
+                        <ul class="animated fadeInUp col-md-12 list-unstyled list-inline">
+                            <li>
+                                <h1 class="font-weight-bold text-uppercase">Best Online Agenda Management
+                                </h1>
+                            </li>
+                            <li>
+                                <p class="font-weight-bold text-uppercase py-4">Successful career starts with good
+                                    planning</p>
+                            </li>
+                            <button type="button" class="btn btn-primary">Primary</button>
+                        </ul>
+                    </div>
+                </div>
+                <!--/.Mask-->
+            </div>
+            <!--/.First slide-->
+
+            <!--Second slide -->
+            <div class="carousel-item">
+                <!--Mask-->
+                <div class="view">
+                    <div class="full-bg-img flex-center mask rgba-purple-light white-text">
+                        <ul class="animated fadeInUp col-md-12 list-unstyled">
+                            <li>
+                                <h1 class="font-weight-bold text-uppercase">It is never too late to Study</h1>
+                            </li>
+                            <li>
+                                <p class="font-weight-bold text-uppercase py-4">Education Needs Complete Solution</p>
+                            </li>
+                            <button type="button" class="btn btn-primary">Primary</button>
+                        </ul>
+                    </div>
+                </div>
+                <!--/.Mask-->
+            </div>
+            <!--/.Second slide -->
+
+            <!--Third slide-->
+            <div class="carousel-item">
+                <!--Mask-->
+                <div class="view">
+                    <div class="full-bg-img flex-center mask rgba-blue-light white-text">
+                        <ul class="animated fadeInUp col-md-12 list-unstyled">
+                            <li>
+                                <h1 class="font-weight-bold text-uppercase">Education is the key to unlock the golden
+                                    door of freedom
+                                </h1>
+                            </li>
+                            <li>
+                                <p class="font-weight-bold text-uppercase py-4">Education Needs Complete Solution</p>
+                            </li>
+                            <button type="button" class="btn btn-primary">Primary</button>
+                        </ul>
+                    </div>
+                </div>
+                <!--/.Mask-->
+            </div>
+            <!--/.Third slide-->
+
+        </div>
+        <!--/.Slides-->
+
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#carousel-example-1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper-->
+
+    <!--Welcome Section-->
+    <div class="container" style="padding: 5rem 0;">
+        <div class="row">
+            <div class="col-md-4" style="margin-bottom: 2rem;">
+                <img src="img/principal1.jpg" width="100%">
+            </div>
+            <div class="col-md-8">
+                <h1>Welcome to Lecturer's Agenda Management</h1>
+                <p>We offer great advantages for lecturer to manage its timetable.This platform help Students to prove
+                    that the
+                    following courses can literally change your life!</p>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="md-v-line"></div><i class="fas fa-laptop mr-4 pr-3"></i>Plan your best tasks
+                    </li>
+                    <li class="list-group-item">
+                        <div class="md-v-line"></div><i class="fas fa-bomb mr-5"></i>Manage your courses
+                    </li>
+                    <li class="list-group-item">
+                        <div class="md-v-line"></div><i class="fas fa-code mr-5"></i>Get Courses details
+                    </li>
+                    <li class="list-group-item">
+                        <div class="md-v-line"></div><i class="far fa-gem mr-5"></i>Student Guidance
+                    </li>
+                    <li class="list-group-item">
+                        <div class="md-v-line"></div><i class="fas fa-cogs mr-5"></i>Chat With Fun
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--Welcome Section-->
+
+    <!--Courses List-->
+    <div class="container" style="margin-bottom: 8em">
+        <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <h1>Explore Courses</h1>
+            </div>
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+                <li data-target="#carousel-example-multi" data-slide-to="2"></li>
+                <li data-target="#carousel-example-multi" data-slide-to="3"></li>
+                <li data-target="#carousel-example-multi" data-slide-to="4"></li>
+                <li data-target="#carousel-example-multi" data-slide-to="5"></li>
+            </ol>
+            <!--/.Indicators-->
+
+            <div class="carousel-inner v-2" role="listbox">
+                <div class="carousel-item active">
+                    <div class="col-12 col-md-4">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title font-weight-bold">CSC 601</h4>
+                                <p class="card-text">Speial Topics in Computing Systems</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-12 col-md-4">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (34).jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title font-weight-bold">CSE 601</h4>
+                                <p class="card-text">Research Methodology in Computer Science & Engineering</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-12 col-md-4">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (38).jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title font-weight-bold">CPE 601</h4>
+                                <p class="card-text">Advanced Modelling & Simulation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-12 col-md-4">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (29).jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title font-weight-bold">CIS 601</h4>
+                                <p class="card-text">Information Theory and Coding</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-12 col-md-4">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (30).jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title font-weight-bold">CSE 602</h4>
+                                <p class="card-text">Advanced Software Systems Analysis and Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-12 col-md-4">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (27).jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title font-weight-bold">CSE 610</h4>
+                                <p class="card-text">Software Maintenance and Resue</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-12 col-md-4">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (27).jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title font-weight-bold">CIS 613</h4>
+                                <p class="card-text">Advanced Information Storage and Retrieval</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (27).jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title font-weight-bold">CSE 612</h4>
+                                <p class="card-text">Special Topics in Web-based Software</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (27).jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title font-weight-bold">CPE 612</h4>
+                                <p class="card-text">Principles of Embedded Computing System</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (27).jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title font-weight-bold">CSC 613</h4>
+                                <p class="card-text">Advanced Multi-agent Systems</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (27).jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title font-weight-bold">CSC 622</h4>
+                                <p class="card-text">Decision Support System</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (27).jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title font-weight-bold">CSC 601</h4>
+                                <p class="card-text">Special Topics in Computing Systems</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Courses List-->
+
+    <!--Events-->
+    <div class="container" style="margin-bottom: 8em">
+        <div style="text-align: center; margin-bottom: 2rem;">
+            <h1>Upcoming Events</h1>
+        </div>
+        <div class="row" style="margin-bottom: 6em;">
+            <div class="col-md-6">
+                <h2>26 Feb 2020</h2>
+                <h3>Postgradute Seminar</h3>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">venue: Foyer, Compter Building</li>
+                    <li class="list-group-item">Date: Wednesday, Febraury 26, 2020</li>
+                    <li class="list-group-item">Time: 12:00pm</li>
+                </ul>
+                <button type="button" class="btn btn-primary">Read More</button>
+            </div>
+            <div class="col-md-6">
+                <img src="img/news/news-sm1.jpg">
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 6em;">
+            <div class="col-md-6">
+                <h2>1 March 2020</h2>
+                <h3>Postgradute Lecture</h3>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">venue: ACE, Compter Building</li>
+                    <li class="list-group-item">Date: Wednesday, March 1, 2020</li>
+                    <li class="list-group-item">Time: 12:00pm</li>
+                </ul>
+                <button type="button" class="btn btn-primary">Read More</button>
+            </div>
+            <div class="col-md-6">
+                <img src="img/news/news-sm1.jpg">
+            </div>
+        </div>
+    </div>
+    <!--Events-->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small indigo">
+
+        <!-- Footer Links -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row text-center d-flex justify-content-center pt-5">
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!">Home</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!">About Us</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!">Courses</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!">Login</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!">Regsiter</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row-->
+            <hr class="rgba-white-light">
+
+            <!-- Grid row-->
+            <div class="row d-flex text-center justify-content-center mb-md-0">
+
+                <!-- Grid column -->
+                <div class="col-md-8 col-12">
+                    <p>We offer great advantages for lecturer to manage its timetable.This platform
+                        help Students to prove that the following courses can literally change your life!</p>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+            <hr class="clearfix d-md-none rgba-white-light">
+
+            <!-- Grid row-->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-12">
+                    <div class="flex-center">
+                        <!--Section-->
+                        <section class="mb-4" style="width: 100%; max-width: 300px;">
+                            <div class="row">
+                                <!--Grid column-->
+                                <div class="col-md-12">
+                                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                                        <!--Grid row-->
+                                        <div class="row">
+                                            <!--Grid column-->
+                                            <div class="col-md-12">
+                                                <div class="md-form mb-0">
+                                                    <input type="text" id="email" name="email" class="form-control">
+                                                    <label for="email" class="">Your email</label>
+                                                </div>
+                                            </div>
+                                            <!--Grid column-->
+
+                                        </div>
+                                        <!--Grid row-->
+                                        <div class="row">
+                                            <!--Grid column-->
+                                            <div class="col-md-12">
+
+                                                <div class="md-form">
+                                                    <input type="text" id="message" name="message" class="form-control">
+                                                    <label for="message">Your message</label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <!--Grid row-->
+
+                                    </form>
+
+                                    <div class="text-center text-md-left">
+                                        <a class="btn btn-primary"
+                                            onclick="document.getElementById('contact-form').submit();">Send</a>
+                                    </div>
+                                    <div class="status"></div>
+                                </div>
+                                <!--Grid column-->
+                            </div>
+
+                        </section>
+                        <!--Section: Contact v.2-->
+
+                    </div>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+    <!--Footer-->
+
+
+    <!-- End your project here-->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
